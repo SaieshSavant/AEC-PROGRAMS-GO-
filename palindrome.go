@@ -9,7 +9,7 @@ func isPalindrome(n int) bool {
 	str := strconv.Itoa(n)
 	length := len(str)
 	for i := 0; i < length/2; i++ {
-		if str[i] != str[length-1] {
+		if str[i] != str[length-i-1] {
 			return false
 		}
 	}
@@ -41,7 +41,7 @@ func main() {
 	result, mul1, mul2 := largestpalindromeproduct()
 	fmt.Printf("Largest palindrome number is :%d\n", result)
 	fmt.Printf("Multiplicands are %d and %d \n", mul1, mul2)
-//Largest palindrome number is :888888
-//Multiplicands are 962 and 924 
+	//Largest palindrome number is :906609
+	//Multiplicands are 993 and 913 
 
 }
