@@ -41,5 +41,7 @@ func main() {
 	result, mul1, mul2 := largestpalindromeproduct()
 	fmt.Printf("Largest palindrome number is :%d\n", result)
 	fmt.Printf("Multiplicands are %d and %d \n", mul1, mul2)
+//Largest palindrome number is :888888
+//Multiplicands are 962 and 924 
 
 }
